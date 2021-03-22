@@ -37,6 +37,7 @@ body{
 
 /* stile comune per le 12 card ------------------------*/
 .card{
+    position: relative;
     width:  150px;
     height: 175px;
     border-radius: 10px;
@@ -48,25 +49,92 @@ body{
     padding: 20px;
 }
 
-.text_card{
+/* unica carta girata ----------------*/
+
+.carta_scoperta{
     position: absolute;
     bottom: 5px;
     left: 20px;
     color: #E61986;
 }
 
-
-/* unica carta girata ----------------*/
 .sei{position: relative;
     background-image: url('../img/noun_air_balloon_3134741.png');
-    /* background-size: contain; */
     background-size: contain;
     background-repeat: no-repeat;
     background-color: white;
 }
 
 
-/* footer */
+/* titolo delle carta, tutti invisibili -------------------*/
+.nome_carta > h2{
+    opacity: 0;
+}
+
+/* set comuti per tutti i titoli card---------------------  */
+.nome_carta > h2{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+/* classi colori comuni */
+.arancione{
+    color: orange;
+}
+.rosa{
+    color: #E61986;
+}
+.celeste{
+    color:cyan
+}
+
+/* carte tractor  1-9*/
+.nove:hover, .uno:hover, .nome_carta > h2:hover{
+    background-image: url('../img/noun_Tractor_3134797.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity: 1;
+}
+
+/* carta ballon dulla 2 */
+.due:hover, .nome_carta > h2:hover{
+    background-image: url('../img/noun_air_balloon_3134741.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity: 1;
+}
+
+/* carte tram 3-12 */
+.tre:hover, .dodici:hover, .nome_carta > h2:hover{
+    background-image: url('../img/noun_Tram_3134750.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer--------------------------------------------- */
 footer{
     width: 100%;
     text-align: center;
