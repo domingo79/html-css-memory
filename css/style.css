@@ -99,7 +99,8 @@ body{
 /* carte tractor  1-9-------------------------------------------------*/
 .nove:hover, .uno:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Tractor_3134797.png');
-    background-size: contain;
+    background-size: 85%;
+    background-position: 15px 5px;
     background-repeat: no-repeat;
     background-color: white;
     opacity: 1;
@@ -108,7 +109,8 @@ body{
 /* carta ballon 2 --------------------------------------------*/
 .due:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_air_balloon_3134741.png');
-    background-size: contain;
+    background-size: 85%;
+    background-position: 15px 5px;
     background-repeat: no-repeat;
     background-color: white;
     opacity: 1;
@@ -117,7 +119,8 @@ body{
 /* carte tram 3-12------------------------------------------- */
 .tre:hover, .dodici:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Tram_3134750.png');
-    background-size: contain;
+    background-size: 85%;
+    background-position: 15px 5px;
     background-repeat: no-repeat;
     background-color: white;
     opacity: 1;
@@ -126,7 +129,8 @@ body{
 /* carte bici 10-11 ------------------------------------------------*/
 .dieci:hover, .undici:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Bicycle_3134821.png');
-    background-size: contain;
+    background-size: 85%;
+    background-position: 15px 5px;
     background-repeat: no-repeat;
     background-color: white;
     opacity: 1;
@@ -135,7 +139,8 @@ body{
 /* carte sottomarino 4-7 ---------------------------------------------*/
 .quattro:hover, .sette:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Submarine_3134738.png');
-    background-size: contain;
+    background-size: 85%;
+    background-position: 15px 5px;
     background-repeat: no-repeat;
     background-color: white;
     opacity: 1;
@@ -143,8 +148,9 @@ body{
 /* carte nave 5-8 -------------------------------------------------------*/
 .cinque:hover, .otto:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Cruise_Ship_3134824.png');
-    background-size: contain;
     background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: 10px 30px;
     background-color: white;
     opacity: 1;
 }
