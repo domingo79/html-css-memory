@@ -1,6 +1,50 @@
 /* reset   */
 *{
-    border: 0;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
     background-color: black;
+    font-family: 'Nerko One', cursive;
+}
+
+.container{
+    width: 75%;
+    margin: 0px auto;
+    background-color: #ADD8E6;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;  
+    text-transform: uppercase;  
+}
+.game{
+    width: 75%;
+    margin: auto;
+}
+
+.card{
+    width:  150px;
+    height: 180px;
+    border-radius: 10px;
+    float: left;
+    margin: 15px 25px;
+    background-color: red;
+    border: 1px solid blue;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: #000;
+
 }
