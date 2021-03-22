@@ -66,20 +66,17 @@ body{
 }
 
 
-/* titolo delle carta, tutti invisibili -------------------*/
+/* h2 delle carta, tutti invisibili e allignamento----*/
 .nome_carta > h2{
     opacity: 0;
+    position: relative;
+    text-align: center;
+    top: 115px;
 }
 
-/* set comuti per tutti i titoli card---------------------  */
-.nome_carta > h2{
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-}
-
-/* classi colori comuni */
+/* set-colori comuni---------------------------*/
 .arancione{
+
     color: orange;
 }
 .rosa{
@@ -99,7 +96,7 @@ body{
     color: yellowgreen;
 }
 
-/* carte tractor  1-9*/
+/* carte tractor  1-9-------------------------------------------------*/
 .nove:hover, .uno:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Tractor_3134797.png');
     background-size: contain;
@@ -108,7 +105,7 @@ body{
     opacity: 1;
 }
 
-/* carta ballon dulla 2 */
+/* carta ballon 2 --------------------------------------------*/
 .due:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_air_balloon_3134741.png');
     background-size: contain;
@@ -117,7 +114,7 @@ body{
     opacity: 1;
 }
 
-/* carte tram 3-12 */
+/* carte tram 3-12------------------------------------------- */
 .tre:hover, .dodici:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Tram_3134750.png');
     background-size: contain;
@@ -126,7 +123,7 @@ body{
     opacity: 1;
 }
 
-/* carte bici 10-11 */
+/* carte bici 10-11 ------------------------------------------------*/
 .dieci:hover, .undici:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Bicycle_3134821.png');
     background-size: contain;
@@ -135,7 +132,7 @@ body{
     opacity: 1;
 }
 
-/* carte sottomarino 4-7 */
+/* carte sottomarino 4-7 ---------------------------------------------*/
 .quattro:hover, .sette:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Submarine_3134738.png');
     background-size: contain;
@@ -143,7 +140,7 @@ body{
     background-color: white;
     opacity: 1;
 }
-/* carte nave 5-8 */
+/* carte nave 5-8 -------------------------------------------------------*/
 .cinque:hover, .otto:hover, .nome_carta > h2:hover{
     background-image: url('../img/noun_Cruise_Ship_3134824.png');
     background-size: contain;
