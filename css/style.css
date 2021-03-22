@@ -88,6 +88,16 @@ body{
 .celeste{
     color:cyan
 }
+.verde{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+.giallo{
+    color: yellowgreen;
+}
 
 /* carte tractor  1-9*/
 .nove:hover, .uno:hover, .nome_carta > h2:hover{
@@ -116,8 +126,30 @@ body{
     opacity: 1;
 }
 
+/* carte bici 10-11 */
+.dieci:hover, .undici:hover, .nome_carta > h2:hover{
+    background-image: url('../img/noun_Bicycle_3134821.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity: 1;
+}
 
-
+/* carte sottomarino 4-7 */
+.quattro:hover, .sette:hover, .nome_carta > h2:hover{
+    background-image: url('../img/noun_Submarine_3134738.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity: 1;
+}
+/* carte nave 5-8 */
+.cinque:hover, .otto:hover, .nome_carta > h2:hover{
+    background-image: url('../img/noun_Cruise_Ship_3134824.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    opacity: 1;
 
 
 
