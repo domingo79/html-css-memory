@@ -43,7 +43,7 @@ body{
     border-radius: 10px;
     float: left;
     margin: 15px 25px;
-    box-shadow: 1px 1px 3px 2px #818080;
+    box-shadow: 2px 2px 3px 3px #818080;
     background-image: url('../img/pattern.png');
     background-size: contain;
     padding: 20px;
