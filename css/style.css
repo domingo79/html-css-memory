@@ -1,4 +1,4 @@
-/* reset   */
+/* reset  ------------------------------------------ */
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body{
     background-color: black;
     font-family: 'Nerko One', cursive;
 }
-
+/* mio contenitore del gioco memory game -------------*/
 .container{
     width: 75%;
     margin: 0px auto;
@@ -24,24 +24,49 @@ body{
 .title{
     color: white;
     text-align: center;
-    font-size: 1.8rem;  
+    font-size: 2rem;  
+    margin: 10px;
     text-transform: uppercase;  
 }
+
+/* sezione del game ------------------------------- */
 .game{
     width: 75%;
     margin: auto;
 }
 
+/* stile comune per le 12 card ------------------------*/
 .card{
     width:  150px;
-    height: 180px;
+    height: 175px;
     border-radius: 10px;
     float: left;
     margin: 15px 25px;
-    background-color: red;
-    border: 1px solid blue;
+    box-shadow: 1px 1px 3px 2px #818080;
+    background-image: url('../img/pattern.png');
+    background-size: contain;
+    padding: 20px;
 }
 
+.text_card{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    color: #E61986;
+}
+
+
+/* unica carta girata ----------------*/
+.sei{position: relative;
+    background-image: url('../img/noun_air_balloon_3134741.png');
+    /* background-size: contain; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+
+/* footer */
 footer{
     width: 100%;
     text-align: center;
